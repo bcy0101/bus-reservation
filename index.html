@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버스 예약시스템</title>
+    <style>
+        /* 전체 페이지를 가운데 정렬 */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            flex-direction: column; /* 세로 방향으로 정렬 */
+        }
+
+        /* 버튼 컨테이너 스타일 */
+        .button-container {
+            display: flex;
+            flex-direction: column; /* 세로 정렬 */
+            gap: 50px; /* 버튼 간격 */
+        }
+
+        /* 버튼 스타일 */
+        .button1 {
+            padding: 50px 40px;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #ddff00;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .button1:hover {
+            background-color: #000000;
+        }
+
+        .button2 {
+            padding: 50px 40px;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #000dff;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .button2:hover {
+            background-color: #000000;
+        }
+
+        .button3 {
+            padding: 50px 40px;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff0000;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .button3:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>우산동 중흥 S 클래스</h1> <!-- 제목을 상단으로 이동 -->
+
+    <div class="button-container">
+        <button class="button1" onclick="location.href='https://comic.naver.com/index'">첨단 20</button>
+        <button class="button2" onclick="location.href='page2.html'">송정 33</button>
+        <button class="button3" onclick="location.href='page3.html'">임곡 290</button>
+    </div>
+
+</body>
+</html>
